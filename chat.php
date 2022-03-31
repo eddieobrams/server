@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,10 +16,21 @@
             <ul class="nav_links">
                 <li><a href="about.html">About</a></li>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="chat.php">Chat</a></li>
+                <li><a href="chat.html">Chat</a></li>
             </ul>
         </nav>
-        <a href="#" class="cta"><button>Sign In</button></a>
+        <a href="signin.html" class="cta"><button>Sign In</button></a>
     </header>
+    <main>
+        <div class="chatbox">
+            
+        </div>
+        <div class="messagebox">
+            <form method="post">
+                <input type="text" placeholder="Message here..." name="message">
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </main>
 </body>
 </html>
