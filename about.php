@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>eddieobrams | chat</title>
+    <title>eddieobrams | about</title>
 </head>
 <body>
     <header>
@@ -21,16 +19,5 @@
         </nav>
         <a href="signin.php" class="cta"><button>Sign In</button></a>
     </header>
-    <main>
-        <div class="chatbox">
-            
-        </div>
-        <div class="messagebox">
-            <form method="post">
-                <input type="text" placeholder="Message here..." name="message">
-                <input type="submit" value="Send">
-            </form>
-        </div>
-    </main>
 </body>
 </html>
